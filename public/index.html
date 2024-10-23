@@ -14,7 +14,7 @@
 
     <!-- header start -->
     <header class="pt-5 pb-5 relative z-10">
-        <div class="max-w-[1216px] px-4 mx-auto flex items-center justify-between">
+        <div class="max-w-main-container px-4 mx-auto flex items-center justify-between">
             <a href="./index.html">
                 <img src="./img/header/header-logo.svg" alt="header logo">
             </a>
@@ -26,75 +26,101 @@
     <!-- header end -->
 
     <!-- hero start -->
-    <section  class="lg:pt-8 md:pt-20 pt-12 pb-20">
-        <div class="max-w-[1216px] mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center md:gap-16 gap-20 lg:gap-8">
-            <div class="w-[400px] md:w-[700px] h-[400px] md:h-[700px] rounded-full bg-[#CFFAFE] absolute 
-            lg:-top-[216px] top-[424px] md:top-[400px] -right-20 md:right-[-154px] lg:right-[-162px]">
+    <section class="lg:pt-8 md:pt-20 pt-12 pb-20">
+        <div
+            class="max-w-main-container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center md:gap-16 gap-20 lg:gap-8">
+            <div class="w-100 md:w-140 h-100 md:h-140 rounded-full bg-[#CFFAFE] absolute 
+            lg:-top-[216px] top-[424px] md:top-[400px] -right-20 md:-right-44 lg:-right-44">
 
             </div>
-            <div class="lg:max-w-full max-w-[592px] relative">
-                <h2 class="font-semibold text-4xl md:text-[64px] leading-[48px] md:leading-[80px] text-[#111827] mb-4">Event Registration Reimagined
+            <div class="lg:max-w-full max-w-138 relative">
+                <h2 class="font-semibold text-4xl md:text-6xl leading-12 md:leading-20 text-regim-gray-400 mb-4">Event
+                    Registration Reimagined
                 </h2>
-                <p class="font-normal text-base md:text-lg leading-6 md:leading-7 text-[#374151] mb-10">Manage your event registrations hassle
+                <p class="font-normal text-sm md:text-base leading-5 md:md:text-lg leading-6 md:leading-7 text-text-regim-gray-300  mb-10">
+                    Manage your event registrations hassle
                     free and without any dependency with the technical team. Isn’t it sounds amazing?</p>
                 <button class="bg-[#0876DD] py-3 px-4 rounded-md text-white font-semibold text-sm leading-5">Get
                     Early Access
                 </button>
             </div>
-            <img class="max-w-[624px] w-full md:w-auto lg:max-w-full relative"  src="./img/hero/mockups.png" alt="hero img">
+            <img class="max-w-[624px] w-full md:w-auto lg:max-w-full relative" src="./img/hero/mockups.png"
+                alt="hero img">
         </div>
     </section>
     <!-- hero end  -->
 
     <!-- service start -->
-    <section hidden class="py-24">
-        <div class="max-w-[768px] mx-auto px-4 text-center mb-16">
-            <h2 class="font-semibold text-[56px] leading-[72px] text-[#111827] mb-2">All-in-one Event Platform</h2>
-            <p class="font-normal text-sm leading-7 text-[#374151] mb-12">Deliver an exceptional event experience</p>
+    <section class="py-12 md:py-24">
+        <div class="max-w-[768px] mx-auto px-4 text-center mb-12 md:mb-20 lg:mb-16">
+            <h2
+                class="font-semibold text-4xl lg:text-[56px] md:text-5xl leading-12 md:leading-18 text-text-regim-gray-400 mb-2">
+                All-in-one Event Platform</h2>
+            <p class="font-normal text-sm leading-7 text-text-regim-gray-300  mb-12">Deliver an exceptional event
+                experience</p>
             <img class="rounded-md" src="./img/service/video-thumbnail.jpg" alt="video-thumbnail">
             <button class="py-4 pl-4 pr-5 inline-flex rounded-full gap-3 bg-white -mt-7"
                 style="box-shadow: 0px 8px 16px -4px #1C2C4014;">
                 <img src="./img/service/play-icon.svg" alt="play-icon">
-                <span>See it in action (2 min)</span>
+                <span class="text-sm md:text-base">See it in action (2 min)</span>
             </button>
         </div>
 
-        <div class="max-w-[1216px] mx-auto px-4 px-4 grid grid-cols-3 gap-8">
-            <div class="text-center p-6">
-                <img class="max-w-[88px] inline-flex mb-6" src="./img/service/icon-1.svg" alt="icon 1">
-                <h3 class="font-semibold text-2xl leading-8 text-[#111827] mb-2">Event Metrics</h3>
-                <p class="font-normal text-base leading-6 text-[#374151]">Track your ticket sales, attendees count and
-                    more with much ease.</p>
+        <div class="max-w-main-container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8">
+            <div class="text-left md:text-center py-6 lg:p-6 flex gap-4 items-start md:block">
+                <img class="w-16 md:max-w-22 inline-flex mb-6" src="./img/service/icon-1.svg" alt="icon 1">
+                <div>
+                    <h3 class="font-semibold text-xl md:text-2xl leading-7 md:leading-8 text-text-regim-gray-400 mb-2">Event Metrics</h3>
+                    <p class="font-normal text-sm md:text-base leading-5 md:leading-6 text-text-regim-gray-300 ">Track your ticket sales,
+                        attendees count and
+                        more with much ease.</p>
+                </div>
             </div>
-            <div class="text-center p-6">
-                <img class="max-w-[88px] inline-flex mb-6" src="./img/service/icon-2.svg" alt="icon 1">
-                <h3 class="font-semibold text-2xl leading-8 text-[#111827] mb-2">Registration & Ticketing</h3>
-                <p class="font-normal text-base leading-6 text-[#374151]">Manage your Event registrations and ticket
-                    sales easier and receive payments instantly.</p>
+            <div class="text-left md:text-center py-6 lg:p-6 flex gap-4 items-start md:block">
+                <img class="w-16 md:max-w-22 inline-flex mb-6" src="./img/service/icon-2.svg" alt="icon 1">
+                <div>
+                    <h3 class="font-semibold text-xl md:text-2xl leading-7 md:leading-8 text-text-regim-gray-400 mb-2">Registration & Ticketing
+                    </h3>
+                    <p class="font-normal text-sm md:text-base leading-5 md:leading-6 text-text-regim-gray-300 ">Manage your Event registrations
+                        and ticket
+                        sales easier and receive payments instantly.</p>
+                </div>
             </div>
-            <div class="text-center p-6">
-                <img class="max-w-[88px] inline-flex mb-6" src="./img/service/icon-3.svg" alt="icon 1">
-                <h3 class="font-semibold text-2xl leading-8 text-[#111827] mb-2">Branded Badges</h3>
-                <p class="font-normal text-base leading-6 text-[#374151]">Create your custom branded badges for your
-                    events and get them printed.</p>
+            <div class="text-left md:text-center py-6 lg:p-6 flex gap-4 items-start md:block">
+                <img class="w-16 md:max-w-22 inline-flex mb-6" src="./img/service/icon-3.svg" alt="icon 1">
+                <div>
+                    <h3 class="font-semibold text-xl md:text-2xl leading-7 md:leading-8 text-text-regim-gray-400 mb-2">Branded Badges</h3>
+                    <p class="font-normal text-sm md:text-base leading-5 md:leading-6 text-text-regim-gray-300 ">Create your custom branded
+                        badges for your
+                        events and get them printed.</p>
+                </div>
             </div>
-            <div class="text-center p-6">
-                <img class="max-w-[88px] inline-flex mb-6" src="./img/service/icon-4.svg" alt="icon 1">
-                <h3 class="font-semibold text-2xl leading-8 text-[#111827] mb-2">Oragniser App</h3>
-                <p class="font-normal text-base leading-6 text-[#374151]">Manage your events at the palm of your hand
-                    with our Oragniser App.</p>
+            <div class="text-left md:text-center py-6 lg:p-6 flex gap-4 items-start md:block">
+                <img class="w-16 md:max-w-22 inline-flex mb-6" src="./img/service/icon-4.svg" alt="icon 1">
+                <div>
+                    <h3 class="font-semibold text-xl md:text-2xl leading-7 md:leading-8 text-text-regim-gray-400 mb-2">Oragniser App</h3>
+                    <p class="font-normal text-sm md:text-base leading-5 md:leading-6 text-text-regim-gray-300 ">Manage your events at the palm
+                        of your hand
+                        with our Oragniser App.</p>
+                </div>
             </div>
-            <div class="text-center p-6">
-                <img class="max-w-[88px] inline-flex mb-6" src="./img/service/icon-5.svg" alt="icon 1">
-                <h3 class="font-semibold text-2xl leading-8 text-[#111827] mb-2">Attendee Engagement</h3>
-                <p class="font-normal text-base leading-6 text-[#374151]">Engage with your attendees via email, surveys
-                    and much more.</p>
+            <div class="text-left md:text-center py-6 lg:p-6 flex gap-4 items-start md:block">
+                <img class="w-16 md:max-w-22 inline-flex mb-6" src="./img/service/icon-5.svg" alt="icon 1">
+                <div>
+                    <h3 class="font-semibold text-xl md:text-2xl leading-7 md:leading-8 text-text-regim-gray-400 mb-2">Attendee Engagement</h3>
+                    <p class="font-normal text-sm md:text-base leading-5 md:leading-6 text-text-regim-gray-300 ">Engage with your attendees via
+                        email, surveys
+                        and much more.</p>
+                </div>
             </div>
-            <div class="text-center p-6">
-                <img class="max-w-[88px] inline-flex mb-6" src="./img/service/icon-6.svg" alt="icon 1">
-                <h3 class="font-semibold text-2xl leading-8 text-[#111827] mb-2">Add to Calendar</h3>
-                <p class="font-normal text-base leading-6 text-[#374151]">Effortless way to add your events to
-                    registered users calendars by 1-click.</p>
+            <div class="text-left md:text-center py-6 lg:p-6 flex gap-4 items-start md:block">
+                <img class="w-16 md:max-w-22 inline-flex mb-6" src="./img/service/icon-6.svg" alt="icon 1">
+                <div>
+                    <h3 class="font-semibold text-xl md:text-2xl leading-7 md:leading-8 text-text-regim-gray-400 mb-2">Add to Calendar</h3>
+                    <p class="font-normal text-sm md:text-base leading-5 md:leading-6 text-text-regim-gray-300 ">Effortless way to add your
+                        events to
+                        registered users calendars by 1-click.</p>
+                </div>
             </div>
 
         </div>
@@ -104,25 +130,40 @@
 
     <!-- brend  start -->
 
-    <section hidden class=" pt-[71px] pb-60">
-        <div class="max-w-[1216px] mx-auto px-4 grid grid-cols-2 gap-8 items-center">
+    <section hidden class=" pt-18 pb-60">
+        <div class="max-w-main-container mx-auto px-4 grid grid-cols-2 gap-8 items-center">
             <div class="pl-12">
-                <h2 class="font-semibold text-[56px] leading-[72px] text-[#111827] mb-6">Integrate with your
+                <h2 class="font-semibold text-[56px] leading-18 text-text-regim-gray-400 mb-6">Integrate with your
                     favorite tools</h2>
-                <p class="font-normal text-lg leading-7 text-[#374151]">Connect RegiM with your most favorite sales and marketing tools</p>
+                <p class="font-normal text-lg leading-7 text-text-regim-gray-300 ">Connect RegiM with your most favorite
+                    sales and marketing tools</p>
             </div>
 
-            <div class="flex flex-col items-center gap-[72px]">
+            <div class="flex flex-col items-center gap-18">
                 <ul class="flex justify-between w-full max-w-[536px]">
-                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;" class="w-20 h-20 rounded-full flex justify-center items-center"><img src="./img/brand/logo-2.svg" alt="brend logo"></li>
-                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;" class="w-20 h-20 rounded-full flex justify-center items-center"><img src="./img/brand/logo-1.svg" alt="brend logo"></li>
-                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;" class="w-20 h-20 rounded-full flex justify-center items-center"><img src="./img/brand/logo-3.svg" alt="brend logo"></li>
-                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;" class="w-20 h-20 rounded-full flex justify-center items-center"><img src="./img/brand/logo-4.svg" alt="brend logo"></li>
+                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;"
+                        class="w-20 h-20 rounded-full flex justify-center items-center"><img
+                            src="./img/brand/logo-2.svg" alt="brend logo"></li>
+                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;"
+                        class="w-20 h-20 rounded-full flex justify-center items-center"><img
+                            src="./img/brand/logo-1.svg" alt="brend logo"></li>
+                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;"
+                        class="w-20 h-20 rounded-full flex justify-center items-center"><img
+                            src="./img/brand/logo-3.svg" alt="brend logo"></li>
+                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;"
+                        class="w-20 h-20 rounded-full flex justify-center items-center"><img
+                            src="./img/brand/logo-4.svg" alt="brend logo"></li>
                 </ul>
                 <ul class="flex justify-between w-full max-w-[384px] mx-auto">
-                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;" class="w-20 h-20 rounded-full flex justify-center items-center"><img src="./img/brand/logo-5.svg" alt="brend logo"></li>
-                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;" class="w-20 h-20 rounded-full flex justify-center items-center"><img src="./img/brand/logo-6.svg" alt="brend logo"></li>
-                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;" class="w-20 h-20 rounded-full flex justify-center items-center"><img src="./img/brand/logo-7.svg" alt="brend logo"></li>
+                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;"
+                        class="w-20 h-20 rounded-full flex justify-center items-center"><img
+                            src="./img/brand/logo-5.svg" alt="brend logo"></li>
+                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;"
+                        class="w-20 h-20 rounded-full flex justify-center items-center"><img
+                            src="./img/brand/logo-6.svg" alt="brend logo"></li>
+                    <li style="box-shadow: 4px 12px 24px 0px #1C2C4014;"
+                        class="w-20 h-20 rounded-full flex justify-center items-center"><img
+                            src="./img/brand/logo-7.svg" alt="brend logo"></li>
                 </ul>
             </div>
         </div>
@@ -130,23 +171,27 @@
 
     <!-- brend end  -->
 
-    <footer hidden class="pt-28 pb-10 bg-[#111827]">
-        <div class="max-w-[1216px] mx-auto px-4">
-            <div class="max-w-[800px] mx-auto text-center mb-28">
-                <h2 class="font-semibold text-5xl leading-[60px] text-white mb-4">Create your event with RegiM</h2>
-                <p class="font-normal text-lg leading-7 text-white mb-10">Leveraging our virtual and live event experience, Hubilo offers everything you need to set up your next hybrid event from registration to executing a flawless event.</p>
+    <footer hidden class="pt-28 pb-10 bg-text-regim-gray-400">
+        <div class="max-w-main-container mx-auto px-4">
+            <div class="max-w-200 mx-auto text-center mb-28">
+                <h2 class="font-semibold text-5xl leading-15 text-white mb-4">Create your event with RegiM</h2>
+                <p class="font-normal text-lg leading-7 text-white mb-10">Leveraging our virtual and live event
+                    experience, Hubilo offers everything you need to set up your next hybrid event from registration to
+                    executing a flawless event.</p>
                 <button class="bg-[#0876DD] py-2.5 px-4 rounded-md text-white font-semibold text-sm leading-5">Get
                     Early Access</button>
             </div>
             <div class="flex items-center flex-col mb-6">
-               <div class="h-px w-full bg-white"></div>
+                <div class="h-px w-full bg-white"></div>
                 <img class="-mt-6" src="./img/footer/logo.svg" alt="footer logo">
-           </div>
+            </div>
 
-           <div class="flex justify-between">
-            <p class="font-medium text-sm leading-5 text-[#9CA3AF]">© RegiM 2022. Made with love by <a class="text-white" href="#">Landify</a></p>
-            <p class="font-medium text-sm leading-5 text-[#9CA3AF]">For further details, drop a mail to <a class="text-white" href="#">hello@landify.design</a></p>
-           </div>
+            <div class="flex justify-between">
+                <p class="font-medium text-sm leading-5 text-[#9CA3AF]">© RegiM 2022. Made with love by <a
+                        class="text-white" href="#">Landify</a></p>
+                <p class="font-medium text-sm leading-5 text-[#9CA3AF]">For further details, drop a mail to <a
+                        class="text-white" href="#">hello@landify.design</a></p>
+            </div>
 
         </div>
     </footer>
